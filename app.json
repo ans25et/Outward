@@ -1,9 +1,10 @@
 {
   "expo": {
     "name": "Outward",
-    "slug": "Outward",
+    "slug": "outward",
     "version": "1.0.0",
     "orientation": "portrait",
+    "description": "A private effort-based mental health companion for logging real-world progress.",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2b700e02-5129-4462-b137-a1c678e89763"
+      }
     }
   }
 }
